@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Facebook - Log In or Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <script src="main.js"></script>
+
+    <img src="./logo.svg" alt="" />
+
+    <div id="container">
+      <form id="form">
+        <input type="email" placeholder="Mobile number or email" />
+        <div id="gap"></div>
+        <input type="password" placeholder="Password" />
+        <button class="btn btn-login" onclick="login()">
+          <b>Log In</b>
+        </button>
+        <div id="or-section">
+          <hr />
+          <span id="or">or</span>
+          <hr />
+        </div>
+      </form>
+
+      <button class="btn btn-register">
+        <b>Create New Account</b>
+      </button>
+      <br />
+      <a href="https://m.facebook.com/login/identify/" id="fp">
+        Forgot Password?
+      </a>
+    </div>
+
+    <div id="langs">
+      <ul>
+        <li>English (US)</li>
+        <li>العربية</li>
+        <li>Português (Brasil)</li>
+        <li>Italiano</li>
+      </ul>
+      <ul>
+        <li>Français (France)</li>
+        <li>Español (España)</li>
+        <li>Deutsch</li>
+        <li id="plus">+</li>
+      </ul>
+    </div>
+
+    <footer>
+      <ul>
+        <li>About</li>
+        &nbsp;.&nbsp;
+        <li>Help</li>
+        &nbsp;.&nbsp;
+        <li>More</li>
+      </ul>
+      <p>Facebook Inc.</p>
+    </footer>
+  </body>
+</html>
