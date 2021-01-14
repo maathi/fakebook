@@ -11,7 +11,8 @@ img {
 }
 
 #container {
-  max-width: 416px;
+  width: 100vw;
+  /* max-width: 416px; */
   margin: auto auto;
 }
 
@@ -25,7 +26,8 @@ form {
 
 input {
   /* width: 100%; */
-  height: 18px;
+  /* height: 18px; */
+  height: auto;
   padding: 12px;
   /* margin: 4px; */
   border-radius: 2.5px;
